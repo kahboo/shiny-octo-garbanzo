@@ -57,30 +57,9 @@
 }
 
 /* The variables are used when the window is at the set sizes, each media query can be edited/deleted */
-@media (max-width:540px) {
-    :root {
-        --topic-opacity: 0;
-        --toolbar-visibility: none;
-        --textarea-buttons-gif: none;
-        --textarea-buttons-sticker: none;
-    }
-}
 
 @media (max-width:540px) {
     :root {
-        --guildicon-size: 40;
-        --float-members-width: 0;
-    }
-}
-
-@media (max-width:540px) {
-    :root {
-        --float-sidebar-width: 0;
-    }
-}
-
-@media (max-width:540px) {
-    :root {
-        --guildlist-collapse: 1;
+        --guildlist-collapse: 0;
     }
 }
